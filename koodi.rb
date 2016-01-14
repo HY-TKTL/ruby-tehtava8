@@ -1,1 +1,1 @@
-# kirjoita koodi tänne
+# kirjoita koodi tännedef osa(array)  return array.reject { |number| number < array[1] }end
