@@ -1,1 +1,6 @@
-# kirjoita koodi tännedef osa(array)  return array.reject { |number| number < array[1] }end
+# kirjoita koodi tänne
+
+def osa(array)
+  array = array.reject { |number| number <= array[0] } unless array.length == 1
+  return array
+end
