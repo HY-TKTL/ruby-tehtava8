@@ -1,4 +1,3 @@
-# kirjoita koodi tänne
 def osa(taulukko)
 	return taulukko.reject{ |a| a < taulukko[0]+1 }
 end
